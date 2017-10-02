@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Cache;
 class TweetReach
 {
     // 2 hours cache
-    const CACHE_TIME = 7200;
+    const CACHE_TIME = 120;
 
     public function calculate($url)
     {
